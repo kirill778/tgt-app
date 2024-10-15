@@ -1,12 +1,29 @@
-export default function Welcome() {
+"use client";
+
+import { useEffect } from 'react';
+
+import { memo } from 'react';
+import type { FC } from 'react';
+
+import classes from './App.module.css';
+import resets from './welcome/_resets.module.css';
+import { Login } from './welcome/Login';
+
+interface Props {
+  className?: string;
+}
+
+const Welcome: FC<Props> = memo(function Welcome(props = {}) {
+
+  useEffect(() => {
+    // Принудительно обновляем стили
+  }, []);
+
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-blue-500 to-purple-500 text-white">
-      <h1 className="text-5xl font-extrabold mb-4">Welcome to Our Beautiful Page! 😊</h1>
-      <p className="text-lg mb-4">We are glad to have you here. Enjoy your stay! 😊</p>
-      <p className="text-md max-w-md text-center">
-        This page is designed to provide you with a warm welcome and an overview of what we offer. 
-        Explore our features and let us know if you have any questions! 😊
-      </p>
+    <div className={`${resets.clapyResets} ${classes.root} `}>
+      <Login />
     </div>
   );
-}
+});
+
+export default Welcome;

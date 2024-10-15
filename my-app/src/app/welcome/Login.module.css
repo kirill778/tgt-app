@@ -1,0 +1,206 @@
+.root {
+  position: relative;
+  width: 422px;
+  height: 902px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.image68 {
+  z-index: 0;
+  position: absolute;
+  left: 40px;
+  top: 122px;
+  width: 353px;
+  height: 320px;
+  outline: solid 0 #bcc1ca;
+  outline-offset: 0;
+  border-radius: 6px;
+  background-image: url('../../assets/image68.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.welcomeToSalesTOPAPlatformToMa {
+  transform-origin: top left;
+  color: #afafaf;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  font-style: italic;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  z-index: 0;
+  position: absolute;
+  left: 69px;
+  top: 534px;
+  width: 264px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.button13 {
+  transform-origin: top left;
+  z-index: 0;
+  position: absolute;
+  left: 217px;
+  top: 648px;
+  width: 163px;
+  height: 58px;
+  flex-direction: column;
+  align-items: flex-start;
+  outline: solid 1px #000;
+  outline-offset: -1px;
+  border-radius: 29px;
+  background-color: #fefefe;
+  overflow: hidden;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.signUp {
+  color: #000;
+  font-size: 12px;
+  line-height: 23px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: calc(50% - -0.5px);
+  top: calc(50% - -1px);
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+  transform: translate(-50%, -50%);
+}
+.button14 {
+  transform-origin: top left;
+  z-index: 0;
+  position: absolute;
+  left: 37px;
+  top: 648px;
+  width: 162px;
+  height: 58px;
+  flex-direction: column;
+  align-items: flex-start;
+  outline: solid 1px #0000;
+  outline-offset: -1px;
+  border-radius: 29px;
+  background-color: #034ef7;
+  overflow: hidden;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.login {
+  color: #fefefe;
+  font-size: 14px;
+  line-height: 23px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: calc(50% - 2.5px);
+  top: calc(50% - -1px);
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+  transform: translate(-50%, -50%);
+}
+.hello {
+  transform-origin: top left;
+  color: #000;
+  font-size: 32px;
+  line-height: 50px;
+  font-weight: bold;
+  font-family: Archivo, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  z-index: 0;
+  position: absolute;
+  left: 46px;
+  top: 467px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.orViaSocialMedia {
+  transform-origin: top left;
+  color: #818388;
+  font-size: 15px;
+  line-height: 24px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  z-index: 0;
+  position: absolute;
+  left: 102px;
+  top: 769px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.sALESTOP {
+  transform-origin: top left;
+  color: #1a1a1a;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  z-index: 0;
+  position: absolute;
+  left: 67px;
+  top: 37px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.tree1 {
+  z-index: 0;
+  position: absolute;
+  left: 23px;
+  top: 30px;
+  width: 32px;
+  height: 32px;
+  background-image: url('../../assets/logo.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.flatColorIconsGoogle {
+  z-index: 0;
+  position: absolute;
+  left: 186px;
+  top: 806px;
+  width: 51px;
+  height: 51px;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+}
+.etLinkedin {
+  z-index: 0;
+  position: absolute;
+  left: 253px;
+  top: 810px;
+  width: 43px;
+  height: 43px;
+}
+.icon2 {
+  width: 100%;
+  height: 100%;
+}
+.logosFacebook {
+  z-index: 0;
+  position: absolute;
+  left: 126px;
+  top: 809px;
+  width: 45px;
+  height: 45px;
+}
+.icon3 {
+  width: 100%;
+  height: 100%;
+}

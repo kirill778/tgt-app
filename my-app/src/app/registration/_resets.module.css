@@ -11,10 +11,12 @@
   overflow-wrap: anywhere;
 }
 
+/*
 .clapyResets,
 .clapyResets :not(span, a, ul, ol, li, p) {
   display: flex;
 }
+*/
 
 .clapyResets ul,
 .clapyResets ol {
